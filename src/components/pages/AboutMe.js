@@ -8,8 +8,8 @@ export default function AboutMe() {
     <div className='aboutMe'>
       Welcome to my website built using React.
       <br></br><br></br>
-      My name is Suthan Sivekumaar and I am a 4th year Management Engineering student at the University of Waterloo. I am currently seeking internship 
-  opportunities for Fall 2022. I have a passion for programming and learning new technology. Please view my GitHub profile to see all my projects. 
+      My name is Suthan Sivekumaar and I am a 4th year Management Engineering student at the University of Waterloo. I am currently seeking full-time job
+  opportunities for Summer or Fall 2023. I have a passion for programming and learning new technology. Please view my GitHub profile to see all my projects. 
   <br></br><br></br>
   Feel free to contact me through LinkedIn or email.</div>
   <img id="profile" src={require("../images/Profile.jpg")} alt="Pofile" width="300" height="400"/>

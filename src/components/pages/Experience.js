@@ -21,7 +21,7 @@ export default function Experience() {
             </li>
             <br></br>
             <li className='work-experience-coop'>
-                <div className='work-experience-company'>Fundscraper Corp.</div>
+                <div className='work-experience-company'>Fundscraper Capital</div>
                 <div className='work-experience-position'>Software Developer</div>
                 <div className='work-experience-dates'>May 2021 to Aug 2021</div>
                 <div className='work-experience-description'>
