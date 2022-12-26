@@ -17,8 +17,8 @@ export default function AboutMe() {
       </div>
   </div>
     <div className='pictures'>
-      <a href="https://github.com/suthansivekumaar"><img id="github" className="picture" src={require("../images/GitHub.jpg")} alt="GitHub" width="100" height="100"/></a>
-      <a href="mailto:ssivekum@uwaterloo.ca"><img id="email" className="picture" src={require("../images/Email.jpg")} alt="Email" width="100" height="100"/></a>
+      <a href="https://github.com/suthansivekumaar"><img id="github" className="picture" src={require("../images/GitHub.png")} alt="GitHub" width="70" height="70"/></a>
+      <a href="mailto:ssivekum@uwaterloo.ca"><img id="email" className="picture" src={require("../images/Email.png")} alt="Email" width="90" height="70"/></a>
       <a href="https://www.linkedin.com/in/suthan-sivekumaar"><img id="linkedin" className="picture" src={require("../images/LinkedIn.png")} alt="LinkedIn" width="70" height="70"/></a>
     </div>
   </div>
