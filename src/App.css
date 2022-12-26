@@ -152,7 +152,11 @@ h2 {
   }
 
   #experience-heading {
-    padding: 0 55px;
+    padding: 0 35px;
     text-align: unset;
+  }
+
+  .entire-block {
+    padding: 0 35px;
   }
 }
