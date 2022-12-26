@@ -1,6 +1,6 @@
 {
-  "name": "my-react-website",
-  "homepage": "http://suthansivekumaar.github.io/my-react-website",
+  "name": "about-me",
+  "homepage": "http://suthansivekumaar.github.io/about-me",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

@@ -11,7 +11,7 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-          <Route path='/my-react-website' element={<AboutMe />} />
+          <Route path='/about-me' element={<AboutMe />} />
           <Route path='/experience' element={<Experience />} />
         </Routes>
       </Router>
