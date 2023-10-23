@@ -24,29 +24,29 @@ export default function AboutMe() {
       <h2 className="about-me-heading">ABOUT ME</h2>
       <div className="aboutMeContainer">
         <div className="introduction-side">
-          <div className="welcomeMessage">
+          <p className="welcomeMessage">
             My name is Suthan Sivekumaar and I am currently working as a
             Software Developer at Bank of Montreal. I graduated (with
-            distinction) with a Bachelor of Applied Science in Management
-            Engineering at University of Waterloo in April 2023. I have a
+            distinction) with a Bachelor of Applied Science in <a target="_blank" rel="noreferrer" id="management-engineering-link" href="https://uwaterloo.ca/future-students/programs/management-engineering">Management
+            Engineering</a> at University of Waterloo in April 2023. I have a
             passion for programming and learning new technology.
-          </div>
-          <div className="welcomeMessage">
+          </p>
+          <p className="welcomeMessage">
             These are the programming languages I can code in:
             {programmingLanguages.map((programmingLanguage, index) => (
               <li key={index}>{programmingLanguage}</li>
             ))}
-          </div>
-          <div className="welcomeMessage">
+          </p>
+          <p className="welcomeMessage">
             These are the frameworks/libraries I am familiar with:
             {frameworksAndLibraries.map((technology, index) => (
               <li key={index}>{technology}</li>
             ))}
-          </div>
-          <div className="welcomeMessage">
+          </p>
+          <p className="welcomeMessage">
             Please view my GitHub profile to see all my projects. Feel free to
             contact me through LinkedIn.
-          </div>
+          </p>
         </div>
         <div className="profile-icons-side">
           <img
@@ -55,7 +55,7 @@ export default function AboutMe() {
             alt="profile"
           />
           <div className="pictures">
-            <a href="https://github.com/suthansivekumaar">
+            <a target="_blank" rel="noreferrer" href="https://github.com/suthansivekumaar">
               <img
                 id="github"
                 className="picture"
@@ -65,7 +65,7 @@ export default function AboutMe() {
                 height="60"
               />
             </a>
-            <a href="https://www.linkedin.com/in/suthan-sivekumaar">
+            <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/suthan-sivekumaar">
               <img
                 id="linkedin"
                 className="picture"

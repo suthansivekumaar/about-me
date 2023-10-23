@@ -10,7 +10,7 @@ export default function Experience() {
       <div className="experience-container">
         <ul className="work-experience">
           <li className="work-experience-coop">
-            <a href="https://www.bmo.com/en-ca/main/personal/">
+            <a target="_blank" rel="noreferrer" href="https://www.bmo.com/en-ca/main/personal/">
               <img
                 id="BMO"
                 className="company-picture"
@@ -39,7 +39,7 @@ export default function Experience() {
                 </li>
                 <li>
                   Resolved accessibility defects happening when using the NVDA
-                  screen reader on Training Center Web using Angular and HTML
+                  screen reader on Training Center Web through Angular and HTML
                 </li>
                 <li>
                   Created new UI components and resolved defects for
@@ -55,7 +55,7 @@ export default function Experience() {
             </div>
           </li>
           <li className="work-experience-coop">
-            <a href="https://www.loblawdigital.co/">
+            <a target="_blank" rel="noreferrer" href="https://www.loblawdigital.co/">
               <img
                 id="LoblawDigital"
                 className="company-picture"
@@ -101,7 +101,7 @@ export default function Experience() {
             </div>
           </li>
           <li className="work-experience-coop">
-            <a href="https://www.marshmclennan.com/">
+            <a target="_blank" rel="noreferrer" href="https://www.marshmclennan.com/">
               <img
                 id="MarshMcLennan"
                 className="company-picture"
@@ -144,7 +144,7 @@ export default function Experience() {
             </div>
           </li>
           <li className="work-experience-coop">
-            <a href="https://www.fundscraper.com/">
+            <a target="_blank" rel="noreferrer" href="https://www.fundscraper.com/">
               <img
                 id="Fundscraper"
                 className="company-picture"

@@ -24,6 +24,16 @@ h2 {
   margin-top: 20px;
 }
 
+#management-engineering-link {
+  color: navy;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+#management-engineering-link:hover {
+  color: #89CFF0;
+}
+
 .profile-icons-side {
   display: flex;
   flex-direction: column;
