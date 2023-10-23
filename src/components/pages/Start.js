@@ -30,13 +30,13 @@ const Start = () => {
         {showSubHeading && subHeading}
       </div>
       <div className={`buttons ${showSubHeading ? "fade-in" : ""}`}>
-          <button id="about-me-button" className="start-button">
-            <Link to="/about-me">About Me</Link>
-          </button>
-          <button id="experience-button" className="start-button">
-            <Link to="/experience">Experience</Link>
-          </button>
-        </div>
+        <button id="about-me-button" className="start-button">
+          <Link to="/about-me">About Me</Link>
+        </button>
+        <button id="experience-button" className="start-button">
+          <Link to="/experience">Experience</Link>
+        </button>
+      </div>
     </div>
   );
 };
