@@ -18,6 +18,7 @@ h2 {
 .introduction-side {
   font-family: Arial, sans-serif;
   padding-left: 125px;
+  padding-right: 10px;
 }
 
 .welcomeMessage {
@@ -31,7 +32,7 @@ h2 {
 }
 
 #management-engineering-link:hover {
-  color: #89CFF0;
+  color: #89cff0;
 }
 
 .profile-icons-side {
@@ -65,6 +66,7 @@ h2 {
 
   .introduction-side {
     padding-left: 65px;
+    padding-right: 65px;
   }
 
   .welcomeMessage {

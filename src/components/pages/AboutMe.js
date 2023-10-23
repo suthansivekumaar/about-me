@@ -27,9 +27,17 @@ export default function AboutMe() {
           <p className="welcomeMessage">
             My name is Suthan Sivekumaar and I am currently working as a
             Software Developer at Bank of Montreal. I graduated (with
-            distinction) with a Bachelor of Applied Science in <a target="_blank" rel="noreferrer" id="management-engineering-link" href="https://uwaterloo.ca/future-students/programs/management-engineering">Management
-            Engineering</a> at University of Waterloo in April 2023. I have a
-            passion for programming and learning new technology.
+            distinction) with a Bachelor of Applied Science in{" "}
+            <a
+              target="_blank"
+              rel="noreferrer"
+              id="management-engineering-link"
+              href="https://uwaterloo.ca/future-students/programs/management-engineering"
+            >
+              Management Engineering
+            </a>{" "}
+            at University of Waterloo in April 2023. I have a passion for
+            programming and learning new technology.
           </p>
           <p className="welcomeMessage">
             These are the programming languages I can code in:
@@ -55,7 +63,11 @@ export default function AboutMe() {
             alt="profile"
           />
           <div className="pictures">
-            <a target="_blank" rel="noreferrer" href="https://github.com/suthansivekumaar">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://github.com/suthansivekumaar"
+            >
               <img
                 id="github"
                 className="picture"
@@ -65,7 +77,11 @@ export default function AboutMe() {
                 height="60"
               />
             </a>
-            <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/suthan-sivekumaar">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.linkedin.com/in/suthan-sivekumaar"
+            >
               <img
                 id="linkedin"
                 className="picture"
