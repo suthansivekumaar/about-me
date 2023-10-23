@@ -53,7 +53,7 @@ export default function Experience() {
                 <li>
                   Demoed new UI components for Lexicon project during weekly
                   office hours to UX designers and software developers from
-                  teams within OLBB division
+                  teams within OLBB
                 </li>
               </ul>
             </div>
