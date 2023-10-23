@@ -4,49 +4,13 @@
   padding: 0;
 }
 
-body {
-  overflow-x: hidden;
-}
-
 h2 {
   text-align: center;
   margin-top: 10px;
   font-family: sans-serif;
 }
 
-#profile {
-  float: right;
-  margin-right: 150px;
-  margin-top: 20px;
-  width: 300px;
-  height: 350px;
-}
-
-.pictures {
-  display: flex;
-  justify-content: space-around;
-  margin-top: 150px;
-}
-
-.picture:hover {
-  transform: scale(1.3);
-}
-
-.aboutMe {
-  font-family: Arial;
-  padding-left: 125px;
-}
-
-.welcomeMessage {
-  margin-top: 20px;
-}
-
-.introduction {
-  margin-top: 20px;
-  padding-right: 500px;
-}
-
-.entire-block {
+.experience-container {
   padding: 0 120px;
 }
 
@@ -69,14 +33,14 @@ h2 {
 
 .work-experience-company {
   font-size: x-large;
-  font-family: Arial;
+  font-family: Arial, sans-serif;
   font-weight: bold;
   color: blue;
 }
 
 .work-experience-location {
   font-size: large;
-  font-family: Arial;
+  font-family: Arial, sans-serif;
   font-weight: bold;
   color: green;
   float: right;
@@ -85,7 +49,7 @@ h2 {
 
 .work-experience-position {
   font-size: large;
-  font-family: Arial;
+  font-family: Arial, sans-serif;
   font-weight: bold;
   color: purple;
 }
@@ -97,7 +61,7 @@ h2 {
 
 .work-experience-dates {
   font-size: large;
-  font-family: Arial;
+  font-family: Arial, sans-serif;
   font-weight: bold;
   color: orange;
   float: right;
@@ -106,12 +70,12 @@ h2 {
 
 .work-experience-description {
   font-size: large;
-  font-family: Arial;
+  font-family: Arial, sans-serif;
   padding-right: 20px;
 }
 
 @media only screen and (min-width: 300px) and (max-width: 800px) {
-  .entire-block {
+  .experience-container {
     padding: 0 55px;
   }
 }
@@ -142,13 +106,8 @@ h2 {
   .work-experience-dates {
     float: none;
   }
-  
-  #experience-heading {
-    padding: 0 35px;
-    text-align: unset;
-  }
 
-  .entire-block {
+  .experience-container {
     padding: 0 35px;
   }
 }

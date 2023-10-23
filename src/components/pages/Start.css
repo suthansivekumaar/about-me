@@ -8,27 +8,6 @@ body {
   overflow-x: hidden;
 }
 
-.about-me-button,
-.experience-button {
-  background: transparent;
-  border: transparent;
-  font-family: Arial;
-  font-size: larger;
-}
-
-.about-me-button {
-  margin-right: 30px;
-}
-
-.about-me-button:hover,
-.experience-button:hover {
-  transform: scale(1.3);
-}
-
-.buttons {
-  margin-top: 20px;
-}
-
 .typing-animation {
   display: flex;
   flex-direction: column;
@@ -47,28 +26,34 @@ body {
 
 .sub-heading {
   font-size: 2rem;
-  color: #0074e4; /* Blue color */
-}
-
-@keyframes blink {
-  0% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-.sub-heading {
+  color: #0074e4;
   opacity: 0;
   transition: opacity 1s ease-in-out;
 }
 
+.buttons {
+  margin-top: 20px;
+  transition: opacity 1s;
+  opacity: 0;
+}
+
 .fade-in {
   opacity: 1;
+}
+
+.start-button {
+  background: transparent;
+  border: transparent;
+  font-family: Arial, sans-serif;
+  font-size: x-large;
+}
+
+.start-button:hover {
+  transform: scale(1.2);
+}
+
+#about-me-button {
+  margin-right: 30px;
 }
 
 @media only screen and (min-width: 300px) and (max-width: 500px) {
@@ -79,5 +64,9 @@ body {
 
   .sub-heading {
     font-size: 1.1rem;
+  }
+
+  .start-button {
+    font-size: medium;
   }
 }

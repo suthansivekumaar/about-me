@@ -7,7 +7,7 @@ export default function Experience() {
     <div>
       <Navbar />
       <h2 id="experience-heading">EXPERIENCE</h2>
-      <div className="entire-block">
+      <div className="experience-container">
         <ul className="work-experience">
           <li className="work-experience-coop">
             <a href="https://www.bmo.com/en-ca/main/personal/">

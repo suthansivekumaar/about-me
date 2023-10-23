@@ -4,10 +4,6 @@
   padding: 0;
 }
 
-body {
-  overflow-x: hidden;
-}
-
 h2 {
   text-align: center;
   margin-top: 10px;
@@ -19,16 +15,16 @@ h2 {
   flex-direction: row;
 }
 
-.left-side {
-  font-family: Arial;
+.introduction-side {
+  font-family: Arial, sans-serif;
   padding-left: 125px;
 }
 
-.introduction {
+.welcomeMessage {
   margin-top: 20px;
 }
 
-.right-side {
+.profile-icons-side {
   display: flex;
   flex-direction: column;
   padding-right: 125px;
@@ -57,15 +53,15 @@ h2 {
     flex-direction: column;
   }
 
-  .left-side {
+  .introduction-side {
     padding-left: 65px;
   }
 
-  .introduction {
+  .welcomeMessage {
     padding-right: 0;
   }
 
-  .right-side {
+  .profile-icons-side {
     padding-right: 65px;
   }
 
@@ -85,12 +81,12 @@ h2 {
     flex-direction: column;
   }
 
-  .left-side {
+  .introduction-side {
     padding-left: 20px;
     padding-right: 20px;
   }
 
-  .right-side {
+  .profile-icons-side {
     padding-right: 0;
     margin-left: 0;
   }

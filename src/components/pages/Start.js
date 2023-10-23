@@ -14,7 +14,7 @@ const Start = () => {
         setNameText(name.substring(0, nameText.length + 1));
       } else {
         clearInterval(typingNameInterval);
-        setShowSubHeading(true); // Trigger subheading animation after name is fully typed
+        setShowSubHeading(true);
       }
     }, 100);
 
@@ -29,16 +29,14 @@ const Start = () => {
       <div className={`sub-heading ${showSubHeading ? "fade-in" : ""}`}>
         {showSubHeading && subHeading}
       </div>
-      {showSubHeading && (
-        <div className={`buttons`}>
-          <button className="about-me-button">
+      <div className={`buttons ${showSubHeading ? "fade-in" : ""}`}>
+          <button id="about-me-button" className="start-button">
             <Link to="/about-me">About Me</Link>
           </button>
-          <button className="experience-button">
+          <button id="experience-button" className="start-button">
             <Link to="/experience">Experience</Link>
           </button>
         </div>
-      )}
     </div>
   );
 };
