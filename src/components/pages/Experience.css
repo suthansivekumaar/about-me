@@ -8,6 +8,47 @@ body {
   overflow-x: hidden;
 }
 
+<<<<<<< HEAD:src/components/pages/Experience.css
+=======
+h2 {
+  text-align: center;
+  margin-top: 10px;
+  font-family: sans-serif;
+}
+
+#profile {
+  float: right;
+  margin-right: 150px;
+  margin-top: 20px;
+  width: 300px;
+  height: 350px;
+}
+
+.pictures {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 150px;
+}
+
+.picture:hover {
+  transform: scale(1.3);
+}
+
+.aboutMe {
+  font-family: Arial;
+  padding-left: 125px;
+}
+
+.welcomeMessage {
+  margin-top: 20px;
+}
+
+.introduction {
+  margin-top: 20px;
+  padding-right: 500px;
+}
+
+>>>>>>> 38405349271deeb05831140a5c74e03c722ab69a:src/App.css
 .entire-block {
   padding: 0 120px;
 }
@@ -101,7 +142,17 @@ body {
     white-space: none;
   }
 
+<<<<<<< HEAD:src/components/pages/Experience.css
   .work-experience-dates {
     float: none;
+=======
+  #experience-heading {
+    padding: 0 35px;
+    text-align: unset;
+>>>>>>> 38405349271deeb05831140a5c74e03c722ab69a:src/App.css
+  }
+
+  .entire-block {
+    padding: 0 35px;
   }
 }
