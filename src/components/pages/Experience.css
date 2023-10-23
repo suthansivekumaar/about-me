@@ -8,8 +8,6 @@ body {
   overflow-x: hidden;
 }
 
-<<<<<<< HEAD:src/components/pages/Experience.css
-=======
 h2 {
   text-align: center;
   margin-top: 10px;
@@ -48,7 +46,6 @@ h2 {
   padding-right: 500px;
 }
 
->>>>>>> 38405349271deeb05831140a5c74e03c722ab69a:src/App.css
 .entire-block {
   padding: 0 120px;
 }
@@ -142,14 +139,13 @@ h2 {
     white-space: none;
   }
 
-<<<<<<< HEAD:src/components/pages/Experience.css
   .work-experience-dates {
     float: none;
-=======
+  }
+  
   #experience-heading {
     padding: 0 35px;
     text-align: unset;
->>>>>>> 38405349271deeb05831140a5c74e03c722ab69a:src/App.css
   }
 
   .entire-block {
