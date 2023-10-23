@@ -4,9 +4,9 @@ import "./Start.css";
 
 const Start = () => {
   const [nameText, setNameText] = useState("");
-  const [showSubHeading, setShowSubHeading] = useState(false);
-  const subHeading = "Welcome to my website built using React.";
+  const [showSubHeadingAndButtons, setShowSubHeadingAndButtons] = useState(false);
   const name = "Suthan Sivekumaar";
+  const subHeading = "Welcome to my website built using React.";
 
   useEffect(() => {
     const typingNameInterval = setInterval(() => {
@@ -14,7 +14,7 @@ const Start = () => {
         setNameText(name.substring(0, nameText.length + 1));
       } else {
         clearInterval(typingNameInterval);
-        setShowSubHeading(true);
+        setShowSubHeadingAndButtons(true);
       }
     }, 100);
 
@@ -26,10 +26,10 @@ const Start = () => {
   return (
     <div className="typing-animation">
       <div className="name">{nameText}</div>
-      <div className={`sub-heading ${showSubHeading ? "fade-in" : ""}`}>
-        {showSubHeading && subHeading}
+      <div className={`sub-heading ${showSubHeadingAndButtons ? "fade-in" : ""}`}>
+        {showSubHeadingAndButtons && subHeading}
       </div>
-      <div className={`buttons ${showSubHeading ? "fade-in" : ""}`}>
+      <div className={`buttons ${showSubHeadingAndButtons ? "fade-in" : ""}`}>
         <button id="about-me-button" className="start-button">
           <Link to="/about-me">About Me</Link>
         </button>
