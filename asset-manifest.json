@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/suthansivekumaar.github.io/static/css/main.ffa9010d.css",
-    "main.js": "/suthansivekumaar.github.io/static/js/main.181a6f3c.js",
-    "static/js/787.bf6be429.chunk.js": "/suthansivekumaar.github.io/static/js/787.bf6be429.chunk.js",
-    "static/media/Profile.jpg": "/suthansivekumaar.github.io/static/media/Profile.d8397a23eec559a5c21f.jpg",
-    "index.html": "/suthansivekumaar.github.io/index.html",
-    "main.ffa9010d.css.map": "/suthansivekumaar.github.io/static/css/main.ffa9010d.css.map",
-    "main.181a6f3c.js.map": "/suthansivekumaar.github.io/static/js/main.181a6f3c.js.map",
-    "787.bf6be429.chunk.js.map": "/suthansivekumaar.github.io/static/js/787.bf6be429.chunk.js.map"
+    "main.css": "./static/css/main.ffa9010d.css",
+    "main.js": "./static/js/main.181a6f3c.js",
+    "static/js/787.bf6be429.chunk.js": "./static/js/787.bf6be429.chunk.js",
+    "static/media/Profile.jpg": "./static/media/Profile.d8397a23eec559a5c21f.jpg",
+    "index.html": "./index.html",
+    "main.ffa9010d.css.map": "./static/css/main.ffa9010d.css.map",
+    "main.181a6f3c.js.map": "./static/js/main.181a6f3c.js.map",
+    "787.bf6be429.chunk.js.map": "./static/js/787.bf6be429.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ffa9010d.css",
