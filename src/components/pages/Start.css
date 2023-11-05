@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.typing-animation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: black;
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.name {
+  font-size: 6rem;
+}
+
+.sub-heading {
+  font-size: 2rem;
+  color: #0074e4;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.buttons {
+  margin-top: 20px;
+  transition: opacity 1s;
+  opacity: 0;
+}
+
+.fade-in {
+  opacity: 1;
+}
+
+.start-button {
+  background: transparent;
+  border: transparent;
+  font-family: Arial, sans-serif;
+  font-size: x-large;
+}
+
+.start-button:hover {
+  transform: scale(1.2);
+}
+
+#about-me-button {
+  margin-right: 30px;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+  .name {
+    font-size: 3rem;
+    padding: 0 5px;
+  }
+
+  .sub-heading {
+    font-size: 1.1rem;
+  }
+
+  .start-button {
+    font-size: medium;
+  }
+}
